@@ -8,7 +8,7 @@ let elements = {
    e3: 9,
    e4: 7,
    e5: 6,
-   e6: 7,
+   e6: 4,
    e7: 6,
    e8: 5,
    e9: 6,
@@ -133,4 +133,4 @@ line.forEach((e) => {
       e.style.cssText = "opacity:1"
     }, 800);
   });
-alert('Os icones em "Contatos" contém Links')
+//  alert('Os icones em "Contatos" contém Links')

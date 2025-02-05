@@ -12,7 +12,9 @@ body {
     line-height: 1.6;
 }
     
-
+h2 {
+    margin-top: 20px;
+}
 
 .resume-container {
     width: 100%;
@@ -34,7 +36,6 @@ body {
     flex-direction: column;
     width: 30%;
     min-height: 600px;
-    max-height: 1000px;
     border-radius: 20px 0px 0px 20px;
     padding: 10px;
     align-items: center;
@@ -159,4 +160,31 @@ body {
     transition: ease .4s;
     cursor: pointer;
     width: 98%;
+}
+
+
+.card-projects {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-auto-rows: auto;
+    gap: 10px;
+    
+}
+
+.card {
+    color: black;
+    background-color: white;
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 8px;
+    transition: .4s;
+}
+
+.card:hover {
+    scale: 0.98;
+    transition: .4s;
+    background-color: #c7c6c6;
+    cursor: pointer;
 }
